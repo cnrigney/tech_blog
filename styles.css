@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+  nav {
+float: right;
+padding: 20px;
+width:100%;
+}
+
+a {
+color: mediumslateblue;
+text-decoration: none;
+font-weight: bold;
+padding-right:20px;
+font-size:20px;
+}
+
+a:hover {
+color:lightslategray;
+text-decoration: none;
+}
+
+/*original from bootstrap class=nav-link*/
+  #banner {
+   width:100%; /*width of your image*/
+   height:250px; /*height of your image*/
+   background:url(./banner.png) no-repeat center;
+   margin:0; /* If you want no margin */
+   padding:0; /*if your want to padding */
+}
+
+.header-h1{
+	font-size:75px;
+	color:white;
+	font-family: 'Righteous', cursive;
+	vertical-align:
+}
+
+ .index-img {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+      } 
+
+ .about-img {
+    height: 350px;
+    background: url(./about_me.jpg) no-repeat center;
+	border-radius:10px;
+	border:2px solid black;
+  } 
+  
+  .blog-img {
+    height: 350px;
+    background: url(./vndc.png) no-repeat center;
+		border-radius:10px;
+	border:2px solid black;
+  }
+
+.side-control{
+border-right:2px solid black;
+}
+
+p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:18px;
+}
+  .writing{
+	font-family: 'Source Sans Pro', sans-serif;
+  font-size:20px;
+  }
+  
+.typewrite{
+	font-size:1em;
+	font-style:italic;
+}
+
+/*MEDIA QUERY*/
+@media only screen and (max-width : 600px) {
+/*
+	  #banner {
+	display:none;
+	}
+*/
+	.side-control {
+		border: 0;
+	}
+	
+	.about-img {
+		border:0;
+		}
+		
+	.blog-img {
+		border:0;
+		}
+		
+}
+
